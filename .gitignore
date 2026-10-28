@@ -10,3 +10,7 @@ push.sh
 *.bak
 *.tmp
 
+# Local LaTeX build output
+.build/
+__pycache__/
+

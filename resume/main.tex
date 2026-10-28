@@ -1,0 +1,165 @@
+\documentclass{article}
+% \usepackage{hyperref}
+\usepackage[colorlinks,linkcolor=blue, anchorcolor=blue, urlcolor=black]{hyperref}
+\usepackage[top=0.4in, bottom=0.4in, left=0.6in, right=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fontspec}
+
+% fontawesome
+\usepackage{fontawesome5}
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+
+\begin{document}
+% \newcommand*{\cmcsans}{\fontfamily{comic}\selectfont}
+% \DeclareTextFontCommand{\textcmcsans}{\cmcsans}
+%  \sffamily
+\begin{center}
+\thispagestyle{empty}
+\huge \textbf{MingYu Zhao\\}
+\vspace{10pt}
+\normalsize Email: zhao.mingyu@rutgers.edu $\mid$ \href{https://illuminatingfish.github.io/}{\color{blue}{Homepage}} $\mid$ Tel: 732-207-3192 \\
+\hrulefill
+\end{center}
+
+\vspace{-6pt}
+
+% \sffamily
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+% University name, degree, year of graduation, GPA (optional)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{EDUCATION}} \\
+\textbf{Rutgers University, Graduate School of Arts and Sciences} \hfill New Brunswick, NJ\\
+Ph.D. in Computer Science \hfill Expected May 2029\\
+\textbf{University of Science and Technology of China} \hfill Hefei, China\\
+B.Eng. in Artificial Intelligence \hfill Jun 2024\\
+
+\vspace{-9pt}
+
+% ASL Pal
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % REASEARCH INTERESTS
+% % University name, degree, year of graduation, GPA (optional)
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \noindent \textbf{\underline{RESEARCH INTERESTS}} \\
+% Computer Vision; Machine Learning; Reinforcement Learning. \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{PUBLICATIONS}} \small \textit{``*'' denotes equal contribution.} \normalsize
+
+\noindent \textbf{First-author Publications}\\[-10pt]
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+
+  \item \textbf{\color{ForestGreen} Mingyu Zhao}$^{*}$, S. Lin$^{*}$, L. Han, X. Yu, Z. Wang, Y. Pang, Y. Zhou, D. N. Metaxas.
+  ``\href{https://arxiv.org/abs/2610.37642}{Metacognitive Decoding: Efficient Inference for Diffusion Language Agents}.''
+  \emph{arXiv preprint}, 2026.\\[-10pt]
+
+  \item \textbf{\color{ForestGreen} Mingyu Zhao}$^{*}$, Y. Zhou$^{*}$, Z. Wang, D. Gu, B. Guo, R. Ye, L. Han, C. Jin, D. N. Metaxas.
+  ``M3-Bench: Multi-Modal, Multi-Hop, Multi-Threaded Tool-Using MLLM Agent Benchmark.''
+  Submitted to the \emph{NeurIPS}, 2026.\\[-10pt]
+
+  \item \textbf{\color{ForestGreen} Mingyu Zhao}, Z. Yang, Y. Zhou, Z. Xia, C. Jin, X. He, C. Neidle, D. N. Metaxas. ``MHB: Multimodal Handshape-aware Boundary Detection for Continuous Sign Language Recognition.'' Accepted by the \emph{LREC}, 2026.\\[-10pt]
+  
+  \item \textbf{\color{ForestGreen} Mingyu Zhao}$^{*}$, Z. Li$^{*}$, X. Dong, H. Ling, B. Huang. ``CAPAA: Classifier-Agnostic Projector-Based Adversarial Attack.'' Accepted by the \emph{IEEE ICME}, 2025.\\[-10pt]
+
+\end{itemize}
+
+\noindent \textbf{Selected Other Publications}\\[-10pt]
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+
+  \item ``Lor-VP: Low-rank Visual Prompting for Efficient Vision Model Adaptation.'' \emph{ICLR 2025}.\\[-10pt]
+
+  \item ``Large Sign Language Models: Toward 3D American Sign Language Translation.'' \emph{WACV 2026}.\\[-10pt]
+
+  \item ``LED: LLM-Enhanced Open-Vocabulary Object Detection without Human-Curated Data Generation.'' \emph{CVPR 2026}.
+
+  
+  \
+
+\end{itemize}
+\vspace{-9pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RESEARCH EXPERIENCE
+% What did you do? -> Project goals OR what problem did you solve?
+% How did you do it? -> Skills and technologies
+% What impact did you create? -> Numbers and percentages.
+% Example: 
+% + Developed an app for matching mentor and mentees for Android and iOS platform.
+% + Successfully matched 85% of the applications and randomized the rest.
+% 
+% Talk about team work, initiative, soft skills.
+%
+% Can also include personal projects, competitions, contribution to Open source.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{RESEARCH EXPERIENCE}} \\[1pt]
+% Project dates to be confirmed.
+\noindent \textbf{Topic: Efficient Inference for Diffusion Language Agents}\\
+\textbf{Instructor: Prof. \href{https://people.cs.rutgers.edu/~dnm/}{\color{blue}Dimitris N. Metaxas} (Rutgers University)}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Developed a lightweight controller that reduces unnecessary computation in diffusion language agents by dynamically deciding when to finalize tokens and how far to generate, without updating the underlying model.
+\item Applied \textbf{Agentic RL (GRPO)} to train the controller on complete agent interactions, rewarding correct task completion with lower computational cost.
+\item Reduced inference FLOPs by \textbf{24.6--43.1\% across five benchmarks} compared with the same model without the controller, while improving accuracy on four benchmarks.\\
+\end{itemize}
+\vspace{-10pt}
+\noindent \textbf{Topic: Multi-Hop, Multi-Threaded MLLM Agent Evaluation and Optimization} \hfill \emph{Oct. 2025 $\sim$ Apr. 2026}\\
+\textbf{Instructor: Prof. \href{https://people.cs.rutgers.edu/~dnm/}{\color{blue}Dimitris N. Metaxas} (Rutgers University)}
+% \textbf{Goal:} Design a \textbf{multimodal} benchmark for evaluating \textbf{MLLM} tool use under the Model Context Protocol (\textbf{MCP}), covering realistic multi-hop and multi-threaded workflows with auditable alignment and interpretable evaluation.
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+% \item Built an end-to-end evaluation pipeline for \textbf{MLLM training/inference} settings with MCP tool integration, enabling controlled assessments across tasks, budgets, and error types to characterize failure modes in realistic tool-use workflows.
+\item Built an end-to-end MCP benchmark generation and correctness validation framework; designed an MCP benchmark suite with 200+ tasks involving visual grounding and cross-tool dependencies, each with a standardized trajectory.
+% \item Built an end-to-end MCP benchmark generation and validation framework.  Designed the benchmark task suite and standardized trajectories for multimodal MCP workflows involving visual grounding and cross-tool dependencies.
+\item Proposed a structure-aware tool-call evaluation metric using \textbf{sentence-encoder} embeddings and \textbf{similarity-bucketed Hungarian matching}; quantitatively evaluated GPT, Gemini, Claude, and \textbf{10+} MLLM models across the benchmark, with qualitative and quantitative analyses of budget and error types to characterize tool-call failure modes.
+% \item Designed the benchmark task suite and standardized trajectories for multimodal MCP workflows (visual grounding, cross-tool dependencies, and persistent intermediate resources across steps), supported by an Executor \& Judge pipeline with optional lightweight human verification.
+% \item Proposed a structure-aware metric suite with similarity-driven tool-call alignment: embed tool-call signatures with a \textbf{sentence encoder} and apply \textbf{similarity-bucketed Hungarian matching} to obtain auditable one-to-one correspondences, decoupling semantic fidelity from workflow consistency.
+\item Performed \textbf{supervised fine-tuning} on LLaDA 1.5 using generated tool-call data from multiple datasets, integrated a reasoning module, and optimized the model with \textbf{reinforcement learning}, improving specified tool-call task performance by \textbf{32\%} over the base LLaDA 1.5 tool-calling baseline under \textbf{LLM judge} scores and accuracy metrics.\\
+
+\end{itemize}
+
+\vspace{-10pt}
+\noindent \textbf{Topic: Multi-Modal Video Temporal Boundary Detection} \hfill \emph{Jan. 2025 $\sim$ Dec. 2025}\\
+\textbf{Instructor: Prof. \href{https://people.cs.rutgers.edu/~dnm/}{\color{blue}Dimitris N. Metaxas} (Rutgers University) and Prof. \href{https://www.bu.edu/asllrp/carol.html}{\color{blue}Carol Neidle} (Boston University)}
+% \textbf{Goal:} Improve \textbf{temporal boundary detection} for human-action videos via \textbf{multimodal} fusion of skeletal features and handshape cues (evaluated on sign language video datasets).
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Designed a spatio-temporal convolution-based segmentation module with velocity and acceleration features from skeleton sequences, improving \textbf{temporal boundary detection} F1 score by around \textbf{10\%} over previous methods.
+\item Integrated handshape information by pretraining a handshape classifier over canonical categories and fusing the classifier's learned hidden representations into the segmentation stream via \textbf{cross-attention} with a gating mechanism.
+\item Built an \textbf{end-to-end} continuous sign language recognition pipeline by combining boundary detection with sign recognition, improving boundary detection F1 score by nearly \textbf{20\%} overall; for signs with well-localized boundaries, continuous recognition performance was within only \textbf{10\%} of isolated-sign recognition.\\
+\end{itemize}
+
+\vspace{-10pt}
+\noindent \textbf{Topic: Classifier-Agnostic Projector-Based Adversarial Attack} \hfill \emph{July. 2024 $\sim$ Dec. 2024} \\
+\textbf{Instructor: Prof. \href{https://www3.cs.stonybrook.edu/~hling/}{\color{blue} HaiBin Ling} (Stony Brook University) and Prof. \href{https://bingyaohuang.github.io/}{\color{blue} BingYao Huang} (Southwest University)}
+% \textbf{Goal}: Achieve classifier-agnostic and \textbf{pose-agnostic} \textbf{projector-based} adversarial attacks.
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+% \item Proposed an algorithm that focuses the adversarial perturbations on the physical adversarial samples themselves, so as to cope with the effects of changing camera poses.
+\item Proposed a pose-agnostic projector-based attack algorithm using Grad-CAM++ to focus perturbations on salient physical regions, mitigating the effects of camera-pose changes and improving visual stealthiness by around \textbf{20\%}.
+% \item Designed a novel optimal loss function to generate adversarial attacks against multiple classifiers.
+\item Designed a novel optimal loss function to generate projector-based adversarial attacks across multiple classifiers with \textbf{negligible performance degradation} compared with classifier-specific attacks.
+\item Validated the effectiveness of the proposed CAPAA by building a camera-projector system in the real world and by evaluating the attack success rate and stealthiness on 10 sets of ablation experiments.
+\end{itemize}
+\vspace{2pt}
+
+\noindent \textbf{\underline{INDUSTRY PROJECT}} \\
+\noindent \textbf{Topic: ASL Pal} \hfill \emph{Sep. 2025 $\sim$ Present} \\
+\textbf{Leads: \href{https://www.linkedin.com/in/berylbreindel/}{\color{blue}Beryl Breindel (DawnSignPress)} and 
+Prof. \href{https://people.cs.rutgers.edu/~dnm/}{\color{blue}Dimitris N. Metaxas} (Rutgers University)} 
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item Fine-tuned a state-of-the-art isolated American Sign Language (ASL) recognition model on the company's proprietary ASL dataset, achieving \textbf{85\%} recognition accuracy and outperforming the original model. 
+\item Engineered the backend inference pipeline with model compression, parallel execution, model preloading, and other technics, reducing model runtime from \textbf{5 min} to \textbf{15 sec}.
+\item Integrated the models into the web platform with the engineering team and validated the system through user testing.
+
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Other Skills: you can add all your other skills here.
+% Continue to keep only relevant skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{2pt}
+
+\noindent \textbf{\underline{TECHNICAL STRENGTHS}} \\
+% \noindent \textbf{Skills:} Python, C/C++, Bash, PyTorch, TensorFlow, Git, Vercel, Flask, Slurm, Linux, \LaTeX.
+\noindent \textbf{Skills:} Python, PyTorch, Bash, C/C++, AI-assisted IDE, Agentic Coding, Linux, MCP, Git, Flask, Slurm, \LaTeX.
+\end{document}
